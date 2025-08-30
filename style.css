@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+}
+
+.inverted {
+  clip-path: path(
+    "M30,0H470A30,30 0,0,1 500,30V470A30,30 0,0,1 470,500H330A30,30 0,0,1 300,470L300,380A30,30 0,0,0 270,350L30,350A30,30 0,0,1 0,320V30A30,30 0,0,1 30,0Z"
+  );
+  width: 500px;
+  height: 500px;
+  background-color: #513d34;
+  aspect-ratio: 1 / 1;
+}
+
+.corner-box {
+  width: 285px;
+  height: 135px;
+  background-color: #513d3489;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 0px;
+}
